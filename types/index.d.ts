@@ -7,6 +7,7 @@ export type NavItem = {
   title: string
   href: string
   disabled?: boolean
+  target?: string
 }
 
 export type MainNavItem = NavItem

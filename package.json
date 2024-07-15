@@ -1,19 +1,14 @@
 {
-  "name": "taxonomy",
+  "name": "scoopika-blog",
   "version": "0.2.0",
   "private": true,
-  "author": {
-    "name": "shadcn",
-    "url": "https://twitter.com/shadcn"
-  },
   "scripts": {
     "dev": "concurrently \"contentlayer dev\" \"next dev\"",
     "build": "contentlayer build && next build",
     "turbo": "next dev --turbo",
     "start": "next start",
     "lint": "next lint",
-    "preview": "next build && next start",
-    "postinstall": "prisma generate"
+    "preview": "next build && next start"
   },
   "dependencies": {
     "@editorjs/code": "^2.8.0",

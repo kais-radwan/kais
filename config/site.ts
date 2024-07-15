@@ -1,13 +1,13 @@
 import { SiteConfig } from "types"
 
 export const siteConfig: SiteConfig = {
-  name: "Taxonomy",
+  name: "Scoopika Blog",
   description:
-    "An open source application built using the new router, server components and everything new in Next.js 13.",
-  url: "https://tx.shadcn.com",
-  ogImage: "https://tx.shadcn.com/og.jpg",
+    "Articles and turtorials for building LLM-powered applications with Scoopika, an open source developer platform for building LLM-powered applications",
+  url: "https://docs.scoopika.com",
+  ogImage: "https://docs.scoopika.com/og.png",
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/taxonomy",
+    twitter: "https://twitter.com/multineonteam",
+    github: "https://github.com/kais-radwan/scoopika-blog",
   },
 }

@@ -77,9 +77,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <GoogleAnalytics gaId="G-43XSPJ16MN" />
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
-          fontHeading.variable
+          "min-h-screen bg-background font-monospace antialiased",
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>

@@ -1,13 +1,13 @@
 import { SiteConfig } from "types"
 
 export const siteConfig: SiteConfig = {
-  name: "Scoopika Blog",
+  name: "kais_radwan",
   description:
-    "Articles and turtorials for building LLM-powered applications with Scoopika, an open source developer platform for building LLM-powered applications",
-  url: "https://docs.scoopika.com",
-  ogImage: "https://docs.scoopika.com/og.png",
+    "Software developer building cool projects -> AI | UI/UX | BACK_END | FRONT_END | NEXT_JS",
+  url: "https://kais.vercel.app",
+  ogImage: "/og.png",
   links: {
-    twitter: "https://twitter.com/multineonteam",
-    github: "https://github.com/kais-radwan/scoopika-blog",
+    twitter: "https://x.com/kais_rad",
+    github: "https://github.com/kais-radwan",
   },
 }

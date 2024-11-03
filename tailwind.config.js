@@ -18,6 +18,9 @@ module.exports = {
       },
     },
     extend: {
+      borderWidth: {
+        '1': "1px"
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -21,14 +21,12 @@ export function Whoami() {
       <Command content="whoami" />
       <div className="flex gap-5">
         <div className="relative ">
+          <div className="absolute top-0 left-0 flex h-full w-full  items-center justify-center bg-grid-small-black z-10" />
           <img
-            src="/me-transparent.jpeg"
-            className="w-56 border-dashed border-green-400/50"
+            src="/images/avatars/kais.png"
+            className="w-56 opacity-40"
           />
-          <img
-            src="/me-transparent.jpeg"
-            className="absolute top-0 w-56 border-dashed border-green-400/50"
-          />
+          <div className="absolute left-0 top-0 h-full w-full bg-green-500/20"></div>
         </div>
         <div className="flex flex-col gap-2.5 pt-5">
           <Line label="name" value="kais radwan" />

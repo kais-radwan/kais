@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   description:
     "Software developer building cool projects -> AI | UI/UX | BACK_END | FRONT_END | NEXT_JS",
   url: "https://docs.scoopika.com",
-  ogImage: "/og.png",
+  ogImage: "https://docs.scoopika.com/og.png",
   links: {
     twitter: "https://x.com/kais_rad",
     github: "https://github.com/kais-radwan",

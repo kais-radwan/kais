@@ -4,7 +4,7 @@ export const siteConfig: SiteConfig = {
   name: "kais_radwan",
   description:
     "Software developer building cool projects -> AI | UI/UX | BACK_END | FRONT_END | NEXT_JS",
-  url: "https://kais.vercel.app",
+  url: "https://docs.scoopika.com",
   ogImage: "/og.png",
   links: {
     twitter: "https://x.com/kais_rad",

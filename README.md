@@ -1,23 +1,9 @@
-# Scoopika blog | Forked from Taxonomy
+# My personal website
 
-A blog for scoopika.com.
+![preview](./public/og.png)
 
-This was forked from [@shadcn](https://twitter.com/shadcn), all thanks and repect for making it open source.
+it shows contributions, projects, designs portfolio, and a blog.
 
-## Running Locally
+that's it, if you like it you're welcome to clone it, just know that it uses an old version of next and some packages conflict sometimes :)
 
-1. Install dependencies using pnpm:
-
-```sh
-pnpm install
-```
-
-3. Start the development server:
-
-```sh
-pnpm dev
-```
-
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/taxonomy/blob/main/LICENSE.md).
+i recommend you just copy-paste some parts to your project, it's just jsx and tailwindcss after all, nothing crazy about it.

@@ -73,8 +73,10 @@ export const metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
-      <GoogleAnalytics gaId="G-43XSPJ16MN" />
+      <head>
+        <meta name="google-site-verification" content="iZELF-QTTz2xWE3U2-FPllqMtRpVw-1Ok4GZEO2_--A" />
+      </head>
+      <GoogleAnalytics gaId="G-1160Q84VZF" />
       <body
         className={cn(
           "min-h-screen bg-background font-monospace antialiased",

@@ -19,21 +19,21 @@ export function Whoami() {
   return (
     <div className="flex flex-col gap-4 p-4">
       <Command content="whoami" />
-      <div className="flex gap-5">
-        <div className="relative ">
-          <div className="absolute top-0 left-0 flex h-full w-full  items-center justify-center bg-grid-small-black z-10" />
+      <div className="flex flex-col md:flex-row gap-5">
+        <div className="relative">
+          <div className="absolute top-0 left-0 flex h-full w-56  items-center justify-center bg-grid-small-black z-10" />
           <img
             src="/images/avatars/kais.png"
             className="w-56 opacity-40"
           />
-          <div className="absolute left-0 top-0 h-full w-full bg-green-500/20"></div>
+          <div className="absolute left-0 top-0 h-full w-56 bg-green-500/20"></div>
         </div>
         <div className="flex flex-col gap-2.5 pt-5">
           <Line label="name" value="kais radwan" />
           <Line label="age" value="19" />
           <Line
             label="experience"
-            value="~5 years - frontend, backend, ui/ux, ai, databases"
+            value="~5 years - frontend, backend, ui/ux, ai"
           />
           <Line
             label="about"

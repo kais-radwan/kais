@@ -44,7 +44,7 @@ export default async function IndexPage() {
           />
         </div>
         <div className="relative">
-          <div className="absolute left-0 top-0 h-14 w-full bg-background"></div>
+          <div className="absolute left-0 top-0 h-10 md:h-14 w-full bg-background"></div>
           <img
             src="https://github-readme-activity-graph.vercel.app/graph?username=kais-radwan&bg_color=transparent&color=4ade80&line=4ade80&point=22c55e&area=true&hide_border=true"
             className="mt-4 w-full"
@@ -90,7 +90,7 @@ export default async function IndexPage() {
               <div className="w-[50%] border-t-1 border-green-400/20"></div>
               10+ clients projects & designs
             </div>
-            <div className="flex grid w-full grid-cols-2 gap-2">
+            <div className="flex grid w-full grid-cols-1 md:grid-cols-2 gap-2">
               <ImageProject path="/images/designs/koxy-v2.png" />
               <ImageProject path="/images/designs/coslynx.png" />
               <ImageProject path="/images/designs/waitlast.gif" />

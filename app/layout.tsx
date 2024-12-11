@@ -82,7 +82,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           "min-h-screen bg-background font-monospace antialiased",
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
           {children}
           <Toaster />
         </ThemeProvider>

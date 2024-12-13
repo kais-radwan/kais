@@ -31,16 +31,17 @@ export default async function IndexPage() {
           />
           <GreenLink
             label="contact"
-            href="/"
+            href="/contact"
             className="bg-transparent text-white"
           />
         </div>
         <Whoami />
         <div className="px-4 text-xs">
           <GreenLink
-            label="latest project: koxy v2"
-            href="https://koxy.cloud"
+            label="let's work together"
+            href="https://cal.com/kais-radwan/20min"
             target="_blank"
+            className="py-1.5"
           />
         </div>
         <div className="relative">
@@ -85,6 +86,7 @@ export default async function IndexPage() {
               state="DEV"
               description="Low-code AI-powered builder for backend tasks and ai automations"
               date="Started Oct 2024"
+              href="https://koxy.cloud"
             />
             <div className="my-4 flex items-center gap-2 text-xs text-green-400/60">
               <div className="w-[50%] border-t-1 border-green-400/20"></div>

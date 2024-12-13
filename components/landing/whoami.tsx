@@ -6,7 +6,7 @@ interface LineProps {
   value: string | React.ReactNode
 }
 
-const Line = ({ label, value }: LineProps) => {
+export const Line = ({ label, value }: LineProps) => {
   return (
     <div className="flex w-full gap-1 text-xs text-green-400">
       <div className="min-w-max opacity-60">{label}:</div>
@@ -63,7 +63,7 @@ export function Whoami() {
           />
           <Line
             label="backend"
-            value="node, deno, go, python, typescript, rust (learning)"
+            value="node, go, python, typescript, C (entry)"
           />
           {/* <div className="text-xs text-green-400/40">{`"i solve problems the same way eminem kills beats"`}</div> */}
         </div>

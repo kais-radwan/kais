@@ -44,13 +44,6 @@ export default async function IndexPage() {
             className="py-1.5"
           />
         </div>
-        <div className="relative">
-          <div className="absolute left-0 top-0 h-10 md:h-14 w-full bg-background"></div>
-          <img
-            src="https://github-readme-activity-graph.vercel.app/graph?username=kais-radwan&bg_color=transparent&color=4ade80&line=4ade80&point=22c55e&area=true&hide_border=true"
-            className="mt-4 w-full"
-          />
-        </div>
         <div className="mt-5 flex flex-col gap-4 border-green-400/10 p-4">
           <div className="flex flex-col gap-3">
             <Project
@@ -90,19 +83,23 @@ export default async function IndexPage() {
             />
             <div className="my-4 flex items-center gap-2 text-xs text-green-400/60">
               <div className="w-[50%] border-t-1 border-green-400/20"></div>
-              10+ clients projects & designs
+              RECENT DESIGNS
             </div>
-            <div className="flex grid w-full grid-cols-1 md:grid-cols-2 gap-2">
+            <div className="flex grid w-full grid-cols-1 gap-2 md:grid-cols-2">
               <ImageProject path="/images/designs/koxy-v2.png" />
-              <ImageProject path="/images/designs/coslynx.png" />
-              <ImageProject path="/images/designs/waitlast.gif" />
+              <ImageProject path="/images/designs/textrpg-game.jpg" />
+              <ImageProject path="/images/designs/textrpg-prototype-1.png" />
+              <ImageProject path="/images/designs/remox-shot.png" />
+              <ImageProject path="/images/designs/dropbox.png" />
+              <ImageProject path="/images/designs/springlance.png" />
+              <ImageProject path="/images/designs/textrpg-login.png" />
+              <ImageProject path="/images/designs/adam-design.png" />
               <ImageProject path="/images/designs/serinus.png" />
               <ImageProject path="/images/designs/scoopika.gif" />
               <ImageProject path="/images/designs/getaresume.png" />
               <ImageProject path="/images/designs/bento1.png" />
-              <ImageProject path="/images/designs/leadsfinder.jpeg" />
-              <ImageProject path="/images/designs/scoopika-pricing.gif" />
               <ImageProject path="/images/designs/scoopika-in.png" />
+              <ImageProject path="/images/designs/coslynx.png" />
             </div>
             <div className="my-4 flex items-center gap-2 text-xs text-green-400/60">
               <div className="w-[50%] border-t-1 border-green-400/20"></div>i
